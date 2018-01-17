@@ -58,7 +58,7 @@ class MainTableViewController: UITableViewController {
         return cell
     }
     
-    func configureTableView() {
+    fileprivate func configureTableView() {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 120.0
     }
